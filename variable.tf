@@ -4,4 +4,10 @@ variable "aws_account_id"{
   description = "AWS account ID"
 }
 
+variable "region"{
+  type        = string
+  default     = "ap-south-1"
+  description = "Region"
+}
+
 
