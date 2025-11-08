@@ -4,6 +4,4 @@ variable "aws_account_id"{
   description = "AWS account ID"
 }
 
-variable "region"{
-  region  = "ap-south-1"
-}
+
